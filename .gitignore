@@ -1,0 +1,17 @@
+<GridLayout
+    android:layout_width = "match_parent"
+    android:layout_height ="match_parent"
+    android:columnCount="4"                        //this is 4 行
+    android:rowCount="6">                           //this is 6 列
+    
+    <Button
+         android:layout_columnSpan="2"                   //this is 占用2行
+            android:layout_gravity="fill_horizontal"     //this is 横向铺满行数
+            android:text="1" />
+
+     <Button
+          android:layout_columnSpan="2"
+          android:layout_gravity="fill_horizontal"
+          android:text="1" />
+          
+</GridLayout>
